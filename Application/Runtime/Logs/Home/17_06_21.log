@@ -1,0 +1,1742 @@
+[ 2017-06-21T11:16:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:16:53+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-21T11:16:55+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=update&id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-21T11:18:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:18:09+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T11:18:11+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=update&id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-21T11:18:46+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:18:48+08:00 ] 127.0.0.1 /index.php?m=Home&c=DataCat&a=update&id=33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-21T11:20:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T11:20:22+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:20:23+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update.html33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:update.html33
+
+[ 2017-06-21T11:20:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T11:20:50+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-21T11:20:52+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+NOTIC: [8] Undefined variable: to E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 51 行.
+NOTIC: [8] Undefined variable: to E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:21:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:21:27+08:00 ] 127.0.0.1 /index.php/Home/Index/setgl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gl_setup` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `gl_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:21:29+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T11:21:31+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:42:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-21T17:42:45+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:42:47+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-21T17:49:05+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-21T17:49:06+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:55:33+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-21T17:55:35+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:56:17+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:56:19+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: list E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php:45) E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php:45) E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php:45) E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T17:57:04+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T17:57:05+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:04:02+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:04:04+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: id E:\wamp\www\thinkphp3.2\Application\Runtime\Cache\Home\3387674909ff3e647c364d8ebd75677f.php 第 44 行.
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:04:57+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:04:58+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:02+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:06+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 23 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:08+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:10+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:16+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:32+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:34+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:05:39+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-21T18:05:42+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:19+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:20+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:23+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:25+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/23.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 23 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:26+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:28+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:06:43+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-21T18:06:46+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:07:21+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-21T18:07:24+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:07:26+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:07:28+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 33 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:07:29+08:00 ] 127.0.0.1 /index.php/Home/DataCat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0 ORDER BY px  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:07:31+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:07:36+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:07:39+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:08:24+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php on line 55 and defined E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:08:27+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:08:28+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php on line 55 and defined E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:08:31+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:13:41+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php on line 55 and defined E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:13:44+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-21T18:13:45+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php on line 55 and defined E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:13:48+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-21T18:14:16+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wamp\www\thinkphp3.2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\thinkphp3.2\Application\Home\Controller\DataCatController.class.php on line 55 and defined E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\thinkphp3.2\ThinkPHP\Common\functions.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-21T18:14:20+08:00 ] 127.0.0.1 /index.php/Home/DataCat/update/id/28.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 0  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `id_lm` = 28 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tol_lm` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 23 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 24 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 25 ORDER BY px  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 26 ORDER BY px  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tol_lm` WHERE `fid` = 27 ORDER BY px  [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
